@@ -5,8 +5,6 @@
 ![Optimization](https://img.shields.io/badge/Optimization-Stochastic%20MILP-purple)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-Welcome to the **Data-Driven Hourly PDF in Microgrid Day-Ahead Energy Management Under Uncertainties** repository.
-
 This repository provides the research code, datasets, and computational workflow for a data-driven stochastic energy management framework for grid-connected microgrids. The project studies how hourly probability distribution functions (PDFs), selected from empirical forecasting errors, influence day-ahead microgrid scheduling under uncertain load demand, solar irradiance, and electricity prices.
 
 The central idea is simple: instead of assuming one fixed probability distribution for all forecast errors, the framework identifies the best-fitting PDF for each stochastic parameter at each hour and uses those hourly PDFs to generate scenarios for stochastic optimization.
