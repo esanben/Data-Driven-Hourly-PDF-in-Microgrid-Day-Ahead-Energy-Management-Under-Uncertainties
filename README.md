@@ -32,26 +32,9 @@ This repository accompanies the following research article:
 
 > Esan, A. B., Shareef, H., ALAhmad, A. K., & Oghorada, O. (2025). **Analysis and Impact of Data-Driven Hourly Probability Distribution Functions in Microgrids Day-Ahead Energy Management under Uncertainties: A Case Study in New South Wales, Australia**. *IET Renewable Power Generation*, 19(1), Article e70146. https://doi.org/10.1049/rpg2.70146
 
-### BibTeX
-
-```bibtex
-@article{esan2025dataDrivenHourlyPDF,
-  title   = {Analysis and Impact of Data-Driven Hourly Probability Distribution Functions in Microgrids Day-Ahead Energy Management under Uncertainties: A Case Study in New South Wales, Australia},
-  author  = {Esan, Ayodele Benjamin and Shareef, Hussain and ALAhmad, Ahmad K. and Oghorada, Oghenewvogaga},
-  journal = {IET Renewable Power Generation},
-  volume  = {19},
-  number  = {1},
-  pages   = {e70146},
-  year    = {2025},
-  doi     = {10.1049/rpg2.70146}
-}
-```
-
 ---
 
 ## Microgrid System Schematic
-
-Place the schematic supplied with this project in `docs/figures/microgrid_schematic.png` so that it renders correctly below.
 
 <p align="center">
   <img src="docs/figures/microgrid_schematic.png" alt="Grid-connected microgrid schematic" width="95%">
@@ -62,8 +45,6 @@ The studied system represents a grid-connected microgrid with micro-turbines, a 
 ---
 
 ## Methodological Workflow
-
-Place the methodology diagram supplied with this project in `docs/figures/methodology_workflow.png` so that it renders correctly below.
 
 <p align="center">
   <img src="docs/figures/methodology_workflow.png" alt="Improved energy management system workflow" width="95%">
@@ -230,17 +211,7 @@ git clone https://github.com/esanben/Data-Driven-Hourly-PDF-in-Microgrid-Day-Ahe
 cd Data-Driven-Hourly-PDF-in-Microgrid-Day-Ahead-Energy-Management-Under-Uncertainties
 ```
 
-### 2. Add the README figures
-
-Create the following folder and place the supplied schematic and methodology figures inside it:
-
-```text
-docs/figures/
-|-- microgrid_schematic.png
-|-- methodology_workflow.png
-```
-
-### 3. Run Stage I: Stochastic parameter prediction
+### 2. Run Stage I: Stochastic parameter prediction
 
 Run the notebooks in:
 
@@ -256,7 +227,7 @@ This stage generates forecasts and forecast errors for:
 
 The rolling notebooks estimate each stochastic parameter over historical training windows and generate year-specific prediction outputs.
 
-### 4. Run Stage II: Stochastic modelling
+### 3. Run Stage II: Stochastic modelling
 
 Run the notebooks in:
 
@@ -266,7 +237,7 @@ Stochastic Modelling - Stage II/Stochastic Modelling - Stage II/
 
 This stage fits candidate PDFs to the hourly forecast errors and selects the most representative distributions using statistical goodness-of-fit tests.
 
-### 5. Run Stage III: Stochastic optimization
+### 4. Run Stage III: Stochastic optimization
 
 Run:
 
@@ -320,10 +291,10 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## About the Author
 
-Hi there! I am **Ayodele Benjamin Esan**. I hold a doctorate in Electrical Engineering with a focus on Deep Reinforcement Learning applications in energy systems. I am passionate about data engineering, optimization, and intelligent energy management systems.
+I am **Ayodele Benjamin Esan**. I hold a doctorate in Electrical Engineering with a focus on Deep Reinforcement Learning applications in energy systems. I am passionate about data engineering, optimization, and intelligent energy management systems.
 
 Feel free to connect with me:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayodele-benjamin-esan-03b948106/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayodele-benjamin-esan-ph-d-03b948106/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/esanben)
 [![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@esanayodele.benjamin)
