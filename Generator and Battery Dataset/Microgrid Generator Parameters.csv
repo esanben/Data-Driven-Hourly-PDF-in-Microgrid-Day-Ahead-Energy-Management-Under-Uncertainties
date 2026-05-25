@@ -1,0 +1,5 @@
+Generators,Parameters,,,,,,,,,,
+S/No.,a,b,startup cost,shutdown cost,min output,max output,initial production level,min uptime,min downtime,ramp up limit,ramp down limit
+MT 1,10,2,1,0.8,500,2000,500,2,2,500,500
+MT 2,12,3,2,1.8,700,3000,700,2,2,1000,1000
+MT 3,14,4,3,2.8,1000,4000,1000,3,3,1500,1500

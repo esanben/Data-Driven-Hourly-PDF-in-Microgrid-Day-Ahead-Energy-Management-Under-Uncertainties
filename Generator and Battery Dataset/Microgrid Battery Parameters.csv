@@ -1,0 +1,15 @@
+S/No.,Other parameters,Values
+1,Battery min energy,300 MWh
+2,Battery max energy,1500 MWh
+3,Battery capacity,1500 MWh
+4,Battery charge/discharge max,500 MW
+5,Battery charge/discharge min,0 MW
+6,Battery efficiency,90%
+7,Battery's initial energy,300 MWh
+8,Battery's end energy,900 MWh
+9,Life cycle number (LCN),3000
+10,Minimum grid power ,0
+11,Maximum grid power,10000
+12,Scenario generation,300
+13,Scenario reduction,10
+14,PV O&M cost,$2/kWh
